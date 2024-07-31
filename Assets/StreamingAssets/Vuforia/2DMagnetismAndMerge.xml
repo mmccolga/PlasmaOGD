@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="2DRepMagBorder.Left" size="1.000000 1.003911"/>
+        <ImageTarget name="2DRepMagBorder.Top" size="1.000000 0.996094"/>
+        <ImageTarget name="2DRepMagBorder.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="2DRepMagBorder.Right" size="1.000000 0.996068"/>
+        <ImageTarget name="2DRepMagBorder.Back" size="1.000000 1.002621"/>
+        <ImageTarget name="2DRepMagBorder.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="2DMagnetism.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="2DMagnetism.Top" size="1.000000 0.995068"/>
+        <ImageTarget name="2DMagnetism.Front" size="1.000000 0.997000"/>
+        <ImageTarget name="2DMagnetism.Right" size="1.000000 1.001235"/>
+        <ImageTarget name="2DMagnetism.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="2DMagnetism.Bottom" size="1.000000 1.002469"/>
+        <ImageTarget name="MergeCube.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeCube.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeCube.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeCube.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeCube.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeCube.Bottom" size="1.000000 1.000000"/>
+        <MultiTarget name="2DRepMagBorder_3cubes">
+            <Part name="2DRepMagBorder.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="2DRepMagBorder.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="2DRepMagBorder.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="2DRepMagBorder.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="2DRepMagBorder.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="2DRepMagBorder.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="2DMagnetism">
+            <Part name="2DMagnetism.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="2DMagnetism.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="2DMagnetism.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="2DMagnetism.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="2DMagnetism.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="2DMagnetism.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="MergeCube">
+            <Part name="MergeCube.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MergeCube.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MergeCube.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="MergeCube.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="MergeCube.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MergeCube.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

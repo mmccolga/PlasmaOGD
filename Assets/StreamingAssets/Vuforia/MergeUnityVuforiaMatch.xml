@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="MergeUnityVuforiaMatch.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeUnityVuforiaMatch.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeUnityVuforiaMatch.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeUnityVuforiaMatch.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeUnityVuforiaMatch.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="MergeUnityVuforiaMatch.Back" size="1.000000 1.000000"/>
+        <MultiTarget name="MergeUnityVuforiaMatch">
+            <Part name="MergeUnityVuforiaMatch.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MergeUnityVuforiaMatch.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MergeUnityVuforiaMatch.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="MergeUnityVuforiaMatch.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="MergeUnityVuforiaMatch.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MergeUnityVuforiaMatch.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

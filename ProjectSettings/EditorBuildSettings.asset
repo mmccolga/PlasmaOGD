@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: 8fce303274ee3be4d829d0aad660cc95
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/RHR.unity
+    guid: d8803fc2265c7cd4ea9ccbe3f08b1a22
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/directElectronInB.unity
+    guid: 9d194e68002da2648963b0eff6a62491
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/circMotioIinBField.unity
+    guid: b14ac6fba77d0b24e87c8821a48f7de7
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/1. Magnetic Field.unity
+    guid: e52683cd348514d9eb426ef381c0d83d
+  - enabled: 1
+    path: Assets/Scenes/1. About MARVLS/aboutMARVLS.unity
+    guid: aa88ab1e02f609a4185667caf44d7944
+  - enabled: 1
+    path: Assets/Scenes/2. whatIsPlasma/boxOfParticles.unity
+    guid: 04dc20c66178148a3aea02cc3a251b9f
+  - enabled: 1
+    path: Assets/Scenes/2. whatIsPlasma/creatingCharges.unity
+    guid: 726668b6d3014434cbccddf3f603203c
+  - enabled: 1
+    path: Assets/Scenes/2. whatIsPlasma/WhatisPlasmaMenu.unity
+    guid: 586f03b2ec8dbfc429945150e6254570
+  - enabled: 1
+    path: Assets/Scenes/6. Nuclear Fusion/nucFusionReaction.unity
+    guid: de6957cbe528e2845b32c32624e5778e
+  - enabled: 1
+    path: Assets/Scenes/6. Nuclear Fusion/OvercomeElectrostatic.unity
+    guid: 69dcf181c13d05d478902ef7355a3519
+  - enabled: 1
+    path: Assets/Scenes/6. Nuclear Fusion/hydrogenIsotope.unity
+    guid: c9eb980f37d3bd8448eb2b546ee2acd6
+  - enabled: 1
+    path: Assets/Scenes/6. Nuclear Fusion/FusionMenu.unity
+    guid: a8826fc5ad6170f4dbf9a625f107a066
+  - enabled: 1
+    path: Assets/Scenes/6. Nuclear Fusion/electrostaticForce.unity
+    guid: 4b66c7df145f3cb45b4433b8a58b564a
+  - enabled: 1
+    path: Assets/Scenes/3. Plasma Examples/plasmaExamplesMenu.unity
+    guid: 7d90748045dd2ad47905f02b2d581789
+  - enabled: 1
+    path: Assets/Scenes/3. Plasma Examples/Plasma Ball SCN Modded.unity
+    guid: f24bf43cce0ad42f7b22f2cfb217ed5d
+  - enabled: 1
+    path: Assets/Plasma Ball/Scenes/Plasma Ball SCN.unity
+    guid: 77e8d02b660a76a42a12dafaafc69f75
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/4. Moving Charge Fields.unity
+    guid: ac6d828600d04461393e88861ebb1f62
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/3. electricFIeld-charges.unity
+    guid: f4662b25be7b24f2e9f71dd67d7dd678
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/FieldsForcesMenu.unity
+    guid: 02ba46eb8287c4e048f465da79098007
+  - enabled: 1
+    path: Assets/Scenes/3. Plasma Examples/fierySun.unity
+    guid: 799027df96c9e40749e62aa09b61e337
+  - enabled: 1
+    path: Assets/Scenes/3. Plasma Examples/auroraborealis.unity
+    guid: e84a445b4f63e4037af7ccb2f5d01b46
+  - enabled: 1
+    path: Assets/Scenes/3. Plasma Examples/vandegraaff.unity
+    guid: ed04c0460d6674f4790a551904e9c43d
+  - enabled: 1
+    path: Assets/Scenes/5. Tokamak/TokamakMenu.unity
+    guid: c8b39458b7cff40bfbf1ed3642eb656f
+  - enabled: 1
+    path: Assets/Scenes/5. Tokamak/Tokamak.unity
+    guid: ad617aa9e47684d9a81df54fd2556af5
+  - enabled: 1
+    path: Assets/Scenes/5. Tokamak/ExternalEnergySystems.unity
+    guid: eabc1fb80940b42d4a20c848008dc856
+  - enabled: 1
+    path: Assets/Scenes/4. Fields & Forces/3. electricField-capacitor.unity
+    guid: 375336642d7ce48f49d65cc5b7117954
+  - enabled: 1
+    path: Assets/Scenes/5. Tokamak/Solenoid.unity
+    guid: e09fbd44bdc054f779fadb5be85f4654
+  - enabled: 1
+    path: Assets/Scenes/5. Tokamak/Toroid.unity
+    guid: 6848ba854ebc144b0879c7f3cdc668ff
+  m_configObjects: {}
